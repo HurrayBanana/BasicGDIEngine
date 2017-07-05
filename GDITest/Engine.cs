@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Created by Hurray Banana (aka Eric Barwell) July 2017
+//please credit if used
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
