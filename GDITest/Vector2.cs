@@ -25,5 +25,7 @@ namespace GDITest
         {
             return new Vector2(v1.X * scaler, v1.Y * scaler);
         }
+
+        public static Vector2 Zero { get { return new Vector2(0, 0); } }
     }
 }

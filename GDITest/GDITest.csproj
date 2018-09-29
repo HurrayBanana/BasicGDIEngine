@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Background.cs" />
+    <Compile Include="Delegates.cs" />
     <Compile Include="GameForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,15 +55,22 @@
     </Compile>
     <Compile Include="Engine.cs" />
     <Compile Include="HelloWorld.cs" />
+    <Compile Include="IDrawable.cs" />
     <Compile Include="ImageSprite.cs" />
+    <Compile Include="IUpdatable.cs" />
     <Compile Include="MovingSprite.cs" />
     <Compile Include="MyShape.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RenderProperties.cs" />
     <Compile Include="SpaceBack.cs" />
     <Compile Include="Sprite.cs" />
     <Compile Include="StickManSprite.cs" />
+    <Compile Include="Tile.cs" />
+    <Compile Include="TileMap.cs" />
+    <Compile Include="TileMapManager.cs" />
     <Compile Include="Vector2.cs" />
+    <Compile Include="Vector3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
